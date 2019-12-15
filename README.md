@@ -5,7 +5,8 @@ The file system that can be created is nearly equal to 33 MB.
 
 Commands that can be used:
 1) createfs [disk_img_name] : creates a disk image of user defined name.
-2) open [disk_img_name] : opens an already existing disk image. \n
+2) open [disk_img_name] : opens an already existing disk image.
+
 NOTE: The following commands need creation or opening of a disk image before executing.
 If executed withou an open disk image, these functions will return an error message
 saying no disk image is open.
