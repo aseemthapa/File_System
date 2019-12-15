@@ -10,6 +10,7 @@ Commands that can be used:
 NOTE: The following commands need creation or opening of a disk image before executing.
 If executed withou an open disk image, these functions will return an error message
 saying no disk image is open.
+
 3) put [filename] : Puts something from host disk to the created disk.
 4) get:
   a) get [filename] : gets a file with given filename and puts it into host disk.
