@@ -14,9 +14,9 @@ saying no disk image is open.
 3) put [filename] : Puts something from host disk to the created disk.
 4) get:
 
-    a) get [filename] : gets a file with given filename and puts it into host disk.
+    a) get [filename] : gets a file with given filename and puts it into host disk under the same filename.
 
-    b) get [filename] [newFilename] : gets a file with given filename and puts it into host disk under the name <newFilename>.
+    b) get [filename] [newFilename] : gets a file with given filename and puts it into host disk under the name [newFilename].
   
 5) del [Filename] : deletes a file from the disk_image.
 6) list:
