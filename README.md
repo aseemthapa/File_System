@@ -13,15 +13,17 @@ saying no disk image is open.
 
 3) put [filename] : Puts something from host disk to the created disk.
 4) get:
-  a) get [filename] : gets a file with given filename and puts it into host disk.
-  
-  b) get [filename] [newFilename] : gets a file with given filename and puts it into host disk under the name <newFilename>.
+
+    a) get [filename] : gets a file with given filename and puts it into host disk.
+
+    b) get [filename] [newFilename] : gets a file with given filename and puts it into host disk under the name <newFilename>.
   
 5) del [Filename] : deletes a file from the disk_image.
 6) list:
-  a) list: lists files in the system.
-  
-  b) list -h: lists all files in the system includeing hidden ones.
+
+    a) list: lists files in the system.
+
+    b) list -h: lists all files in the system includeing hidden ones.
   
 7) df: returns the free space left.
 8) attrib [attribute_change] [filename] : Changes the attributes of a file in the system
